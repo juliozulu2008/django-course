@@ -1,1 +1,1 @@
-# django-couse
+# django-course
