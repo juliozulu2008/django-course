@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blog.apps.BlogConfig', # Ao usar o comando Django-admin startapp "nome" cria um app no projeto e tem que decrarar aqui
 ] # Aplicaçao intaladas no app rodas de cima para baixo
 
 MIDDLEWARE = [
